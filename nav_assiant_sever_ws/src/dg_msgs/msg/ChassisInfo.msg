@@ -1,0 +1,7 @@
+EquipmentCommon equipment
+float32 min_linear_speed
+float32 max_linear_speed
+float32 linear_speed_scaling
+float32 min_angular_speed
+float32 max_angular_speed
+float32 angular_speed_scaling

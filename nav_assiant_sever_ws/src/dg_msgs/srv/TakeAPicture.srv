@@ -1,0 +1,17 @@
+#goal definition
+string pointCloud   # 点云存储路径
+string rgb          # RGB 图像存储路径
+string depth        # 深度图存储路径
+bool[] selection    # 按照pointCloud, rgb, depth顺序输入是否需要对应的数据
+int32  image_type   # 对图像处理类型，0-正常，1-镜像
+---
+#result definition
+string pointCloud
+string rgb
+string depth
+UniversalStateInfo  state_info
+  
+# 0 表示成功；
+# error: 1 表示点云存储失败
+#        2 表示rgb图像存储失败
+#        3 表示深度图存储失败

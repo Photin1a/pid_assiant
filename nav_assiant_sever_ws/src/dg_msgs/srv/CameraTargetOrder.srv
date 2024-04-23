@@ -1,0 +1,7 @@
+geometry_msgs/PoseArray pose_camera_baselink_array
+std_msgs/Float64MultiArray begin_joint
+std_msgs/Float64MultiArray end_joint
+float64[]                                  lift_data
+---
+int32[]                      order_index
+std_msgs/Float64MultiArray[] multi_joint_data

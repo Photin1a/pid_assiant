@@ -1,0 +1,6 @@
+geometry_msgs/Pose pose_camera_baselink
+string file_path
+int32 alter_count #邻近点返回数量
+float64 error_data #误差范围
+---
+TrainDataSet[] pose_ret

@@ -1,0 +1,5 @@
+string number       # 设备编码
+int32 operation     # 1：上升； 2：下降； 3：停止
+---
+int32 result
+float32 height          # 升降柱当前的高度

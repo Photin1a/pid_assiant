@@ -1,0 +1,5 @@
+float32 detect_dis          # 距离motion_link的检测距离
+---
+float32 confidence          # 仙工底盘对当前位置的置信度
+geometry_msgs/TransformStamped[] piller_stamped
+UniversalStateInfo state_info

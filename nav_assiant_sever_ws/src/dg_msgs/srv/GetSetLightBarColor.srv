@@ -1,0 +1,21 @@
+# 获取/设置灯带颜色的服务
+string ligth_bar_color          # 灯带颜色，如果是空字符串，则返回当前灯带颜色 ｜ 格式：color format 如：red flash 红灯闪烁, red form 红灯常亮，允许不区分大小写
+# 艾智威灯带支持的以下几种状态
+# none          无显示
+# green breath  绿色呼吸
+# green form    绿色常亮
+# left turn     左转
+# right turn    右转
+# blue flash    蓝色闪烁
+# red form      红色常亮
+# red flash     红色闪烁
+# yellow form   黄色常亮
+# yellow flash  黄色闪烁
+# white form    白色常亮
+# green flash   绿色闪烁
+# skyblue form  蓝色常亮
+# purple form   紫色闪烁
+# yellow breath 黄色呼吸
+
+---
+string current_light_bar_color  # 当前灯带颜色

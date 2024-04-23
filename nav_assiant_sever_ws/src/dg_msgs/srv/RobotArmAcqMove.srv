@@ -1,0 +1,8 @@
+string number       # 设备编码
+---
+UniversalStateInfo  state_info
+string image_name
+  
+# 0 表示成功；
+# error: 1 表示运动失败；
+# warning: 2 表示规划失败 （运动失败就不能再进行采集任务的执行了，规划失败也就是目标像点无法到达）

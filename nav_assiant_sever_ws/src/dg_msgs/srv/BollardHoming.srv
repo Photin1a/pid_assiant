@@ -1,0 +1,6 @@
+# 升降柱回零 service name: /bollard_homing
+string number     # 升降柱编号
+string bollard_name     # 升降柱名(当前可以不填)
+---
+int32 result                # 0: 成功；非0: 失败
+string err_msg              # 错误信息

@@ -1,0 +1,3 @@
+string number       # 机械臂编号
+---
+int32 result        # 0: 成功  非0：失败

@@ -1,0 +1,3 @@
+sensor_msgs/PointCloud2 cloud_cmd
+---
+int8 flag_cloud

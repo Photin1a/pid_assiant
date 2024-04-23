@@ -1,0 +1,9 @@
+string      model_path                     # 区域模型
+float64[]   matrix_region_init             # 区域初始矩阵，镜像复用和旋转复用，在进行配准时需要提前对区域
+string      region_frame_path              # 区域配准帧模型
+float64[]   matrix_region_regionframe      # 区域到区域配准帧的转换关系
+PointSequence[] image_points                     # 像点, 用于加载可替代点位
+---
+UniversalStateInfo  state_info
+
+# 0 表示成功；

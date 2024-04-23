@@ -1,0 +1,6 @@
+geometry_msgs/Pose pose_camera_baselink
+std_msgs/Float64MultiArray joint_data
+bool is_checkself_collision
+bool is_env_collision
+---
+std_msgs/Float64MultiArray[] multi_joint_data

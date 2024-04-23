@@ -1,0 +1,6 @@
+# 获取当前地图列表 service name = /get_current_map_list
+---
+int32 result                # 0: 成功；非0: 失败
+string err_msg              # 错误信息
+string[] map_names          # 所有地图列表
+string current_map_name     # 当前地图名称

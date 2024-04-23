@@ -1,0 +1,4 @@
+ImageGoal goal
+string directory        # 图片存放目录
+---
+ImageResult result

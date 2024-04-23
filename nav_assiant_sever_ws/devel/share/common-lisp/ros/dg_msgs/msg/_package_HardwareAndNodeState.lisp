@@ -1,0 +1,22 @@
+(cl:in-package dg_msgs-msg)
+(cl:export '(ROS_TOPIC_STATE-VAL
+          ROS_TOPIC_STATE
+          ROS_NODE_STATE-VAL
+          ROS_NODE_STATE
+          ROS_SERVICE_STATE-VAL
+          ROS_SERVICE_STATE
+          DAEMON_STATE-VAL
+          DAEMON_STATE
+          SYSTEM_FILE_STATE-VAL
+          SYSTEM_FILE_STATE
+          NETWORKED_DEVICE_STATE-VAL
+          NETWORKED_DEVICE_STATE
+          CPU_MEM_STATE-VAL
+          CPU_MEM_STATE
+          CHASSIS_STATE-VAL
+          CHASSIS_STATE
+          WORKING_NODE_ERROR-VAL
+          WORKING_NODE_ERROR
+          LAST_UPDATE_TIME-VAL
+          LAST_UPDATE_TIME
+))

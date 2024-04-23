@@ -1,0 +1,22 @@
+geometry_msgs/PoseStamped relative_pose          # 停车点位置(相对位置)
+string model_path                                # 转向架数据模型
+int32 model_type                                 # 模型类型（车头： 1，转向架： 2）
+int32 region_type
+int32 reg_type                                   # 配准采集数据类型， 0为相机，1为雷达
+string lidar_topic                               # 雷达topic，用于确定使用哪个雷达采集数据
+CorrectionPoint correction_point                 # 纠偏点，配准采集选择相机，相机需要移动到correction_point里传进来的pose, pose是存储在区域坐标系下的，配合relative_pose使用
+CorrectionJoint correction_joint                        # 纠偏轨迹
+float64[] matrix_region_trainhead                          # 区域转换矩阵
+CropBox box_target
+CropBox box_source
+PointSequence[] image_points                     # 像点，运动规划
+
+string region_frame_path                                # 区域配准帧文件路径
+float64[] matrix_region_regionframe                     # 区域到区域配准帧的配准结果
+
+---
+geometry_msgs/Pose  correction_pose              # 反馈给中心节点停车点位的位移偏差(用于里程计校准)
+UniversalStateInfo  state_info                   # error 1 机械臂初始位置错误；2 坑道模型加载错误；3 转向架模型加载失败；
+                                                 # 4 配准服务调用失败；5 机械臂运动失败；6 机械臂规划到纠偏点位失败；
+                                                 # 7 外部轴运动失败；8 终止指令返回；
+                                                 # warning  9 暂停指令返回；

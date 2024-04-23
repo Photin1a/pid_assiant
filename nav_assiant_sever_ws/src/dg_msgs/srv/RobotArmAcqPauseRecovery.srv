@@ -1,0 +1,4 @@
+string number        # 设备编码
+int32 state_index    # pause(1), recovery(2), terminate(-1)
+---
+UniversalStateInfo  state_info

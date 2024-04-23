@@ -1,0 +1,19 @@
+int32 data_collect
+string topic_lidar
+int32 collection_frames
+string path_source
+string path_target
+sensor_msgs/PointCloud2 pcd_target
+bool statistical_filter_source
+bool statistical_filter_target
+bool use_fpfh
+bool crop
+CropBox cropbox_source
+CropBox cropbox_target
+geometry_msgs/Transform init_pose
+
+---
+# bool result_registration
+# string status_info
+geometry_msgs/Transform transform
+UniversalStateInfo  state_info # state_index: 0 配准成功 1 配准失败 2 读取target点云文件失败 3 读取source点云文件失败 4 从激光雷达获取点云失败 5 从相机获取点云失败

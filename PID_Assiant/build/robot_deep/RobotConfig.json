@@ -1,0 +1,11 @@
+{
+    "brake_distance": 0,
+    "detail": "empty",
+    "ip": "172.16.10.201",
+    "max_v": 0,
+    "max_w": 0,
+    "name": "deep",
+    "port": "4042",
+    "signal_model": "TCP",
+    "test_distance": 0
+}

@@ -1,0 +1,5 @@
+float32 distance            # 站点导航模式下移动距离，> 0 向前，< 0 向后
+bool check_state            # 是否要求机械臂必须要在home点：true底盘运动前机械臂必须要在home位，否则直接返回运动失败；false则不对机械臂进行检查，完全信任人工操作
+---
+int32 result                # 0: 成功  非0：失败
+string error_msgs           # 错误信息

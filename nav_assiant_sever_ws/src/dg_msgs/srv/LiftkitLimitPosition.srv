@@ -1,0 +1,4 @@
+float32 limit_min
+float32 limit_max
+---
+int32 result        # 0: 成功  非0：失败

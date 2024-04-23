@@ -1,0 +1,5 @@
+# 变量说明
+# enter_method 进入电梯的方式，从左侧进入、从右侧进入
+string enter_method
+---
+UniversalStateInfo  state_info

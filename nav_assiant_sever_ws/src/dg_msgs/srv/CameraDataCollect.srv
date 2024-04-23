@@ -1,0 +1,3 @@
+string point_cloud_path
+---
+sensor_msgs/PointCloud2 PointCloud

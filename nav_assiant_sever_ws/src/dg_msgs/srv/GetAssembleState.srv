@@ -1,0 +1,4 @@
+# 获取上装体状态请求
+string assemble_index
+---
+AssembleState state_

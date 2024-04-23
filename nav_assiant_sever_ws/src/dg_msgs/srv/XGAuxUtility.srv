@@ -1,0 +1,7 @@
+# 仙工底盘的辅助服务，用于中心节点和底盘之间交互媒介
+
+# 内容一：用于转化的pose
+geometry_msgs/PoseStamped reg_pose          # 配准结果pose，从中心节点处传入
+geometry_msgs/PoseStamped teach_pose        # 当时示校时的pose，从中心节点传入 
+---
+UniversalStateInfo  state_info

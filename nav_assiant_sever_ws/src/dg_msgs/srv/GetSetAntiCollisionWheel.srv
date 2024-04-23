@@ -1,0 +1,4 @@
+# 获取/设置防撞轮状态 - 允许同时设置/获取多个防撞轮状态
+AntiCollisionWheelState[] target_state
+---
+AntiCollisionWheelState[] current_state

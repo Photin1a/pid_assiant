@@ -1,0 +1,5 @@
+string topic_lidar
+bool reset
+---
+
+UniversalStateInfo  state_info

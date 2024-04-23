@@ -1,0 +1,4 @@
+string number       # 设备编码
+float32 dist       # 机械臂和碰撞物的安全距离，单位米
+---
+int32 result        # 0: 成功  非0：失败

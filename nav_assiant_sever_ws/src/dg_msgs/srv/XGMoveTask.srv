@@ -1,0 +1,10 @@
+# 为仙工底盘提供的专用move_task服务
+
+# string line_name                          # 任务线名，可缺省 -- 未来可能弃用
+string station_name                         # 站点名，可缺省
+geometry_msgs/PoseStamped target_pose       # 目标pose
+float32 max_deviation                       # 最大偏移误差
+string method                               # 运动方式，forward, backward
+bool backing_to_home                        # 返回到地图初始点
+---
+UniversalStateInfo  state_info

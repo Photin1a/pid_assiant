@@ -1,0 +1,14 @@
+string time
+float64 test_distance
+float64 max_linear
+float64 max_w
+float64 angle_p
+float64 angle_i
+float64 angle_d
+float64 linear_p
+float64 linear_i
+float64 linear_d
+---
+bool is_success  #pid设置成功：true    失败：false
+string detail
+

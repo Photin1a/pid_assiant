@@ -1,0 +1,7 @@
+string topic_lidar # 雷达话题名
+int32 collect_frames # 需要采集的帧数
+bool data_type # 雷达数据类型: 0: 默认livox CustomMsg, 1: ros pcd2
+string save_path # 保存路径
+---
+sensor_msgs/PointCloud2  pcd_collect # 返回采集的点云
+UniversalStateInfo  state_info # 返回采集状态信息

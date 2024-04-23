@@ -1,0 +1,4 @@
+string number       # 设备编码
+---
+int32 result        # 0: 成功  非0：失败
+string err_msg      # 错误信息

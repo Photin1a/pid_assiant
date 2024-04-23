@@ -1,0 +1,4 @@
+string planning_group
+---
+bool Is_collision
+string[] collision_joint

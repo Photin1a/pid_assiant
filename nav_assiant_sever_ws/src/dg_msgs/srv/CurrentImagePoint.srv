@@ -1,0 +1,8 @@
+string number       # 设备编码
+bool check_position # 是否检查当前位置合理性
+---
+int32 result        # 拍照点获取结果，0：成功；非0：失败（1：拍照点不合理）
+geometry_msgs/PoseStamped pose
+trajectory_msgs/JointTrajectoryPoint joint
+float32 offset      # 升降柱伸缩量
+string custom_message

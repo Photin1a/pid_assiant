@@ -1,0 +1,16 @@
+(cl:in-package dg_msgs-msg)
+(cl:export '(EQUIPMENT-VAL
+          EQUIPMENT
+          MIN_LINEAR_SPEED-VAL
+          MIN_LINEAR_SPEED
+          MAX_LINEAR_SPEED-VAL
+          MAX_LINEAR_SPEED
+          LINEAR_SPEED_SCALING-VAL
+          LINEAR_SPEED_SCALING
+          MIN_ANGULAR_SPEED-VAL
+          MIN_ANGULAR_SPEED
+          MAX_ANGULAR_SPEED-VAL
+          MAX_ANGULAR_SPEED
+          ANGULAR_SPEED_SCALING-VAL
+          ANGULAR_SPEED_SCALING
+))

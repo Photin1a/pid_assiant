@@ -1,0 +1,5 @@
+# 仙工站点搜索 - 欧式距离1.6m(包含z)+并集
+geometry_msgs/PoseArray camear_factory_start            # 需要搜索的pose
+float32 search_radius                                   # 搜索半径
+---     
+geometry_msgs/PoseArray motion_link_factory_start       # 搜索到的pose

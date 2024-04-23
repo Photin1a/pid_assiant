@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pid_assiant",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_assiant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_assiant-Debug-fa3262213c919ef07dfb.json",
+					"name" : "pid_assiant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_assiant_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_assiant_autogen-Debug-d2d9d3f31b7f76904397.json",
+					"name" : "pid_assiant_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_controller-Debug-37cb553825abb8e6bbc7.json",
+					"name" : "pid_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_controller_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_controller_autogen-Debug-4970d531b199f7965072.json",
+					"name" : "pid_controller_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sever::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sever-Debug-acf8e94c8b390a85ae9c.json",
+					"name" : "test_sever",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sever_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sever_autogen-Debug-e2111a0d036885c3b2d8.json",
+					"name" : "test_sever_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/photinia/Documents/PID_Assiant/build",
+		"source" : "/home/photinia/Documents/PID_Assiant"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

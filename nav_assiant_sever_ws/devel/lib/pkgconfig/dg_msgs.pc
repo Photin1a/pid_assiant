@@ -1,0 +1,8 @@
+prefix=/home/photinia/Documents/nav_assiant_sever_ws/devel
+
+Name: dg_msgs
+Description: Description of dg_msgs
+Version: 0.0.1
+Cflags: -I/home/photinia/Documents/nav_assiant_sever_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs std_msgs actionlib_msgs trajectory_msgs sensor_msgs message_runtime

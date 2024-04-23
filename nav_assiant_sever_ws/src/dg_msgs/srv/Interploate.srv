@@ -1,0 +1,5 @@
+geometry_msgs/Pose              pose_camera_baselink
+float64                         lift_data       
+string                          filename
+---
+TrainDataSet[]                  pose_dataset_array

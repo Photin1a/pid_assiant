@@ -1,0 +1,8 @@
+geometry_msgs/Pose pose
+float64[]  joints_real
+std_msgs/Int8MultiArray flag_cmd
+---
+int32                   ret
+float64[]                               joints_new_real
+geometry_msgs/Pose    pose_new_real
+float64         data_error

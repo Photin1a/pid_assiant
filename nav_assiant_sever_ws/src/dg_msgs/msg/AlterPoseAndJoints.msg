@@ -1,0 +1,3 @@
+geometry_msgs/Pose pose_camera_baselink
+float64 lift_data
+std_msgs/Float64MultiArray[] multi_joint_data

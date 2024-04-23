@@ -1,0 +1,14 @@
+# 预置停车点位置，此时并不能获取准确的停车点位置，需离线处理后上传
+string lidar_topic      # 雷达标识
+string model_path       # 模型路径
+int32 model_id          # 模型ID
+int32 stop_id           # 停车点ID
+---
+int32 result        # 0: 成功  非0：失败
+
+
+# 离线调整输出结果
+# Pose robotPose
+# CropBox box
+# int32 model_id
+# int32 stop_id

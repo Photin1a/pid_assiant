@@ -1,0 +1,5 @@
+float32 linear_scale
+float32 angular_scale
+---
+float32 cur_linear
+float32 cur_angular

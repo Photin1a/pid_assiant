@@ -1,0 +1,12 @@
+# MoveToAction.action
+# 定义目标点的特征
+uint64 motion_model    #1 直行y=0       2 平移x=0     3原地旋转   4 自由模式
+geometry_msgs/PoseStamped target_pose
+---
+# 结果
+geometry_msgs/PoseStamped end_pose
+geometry_msgs/Twist brake_vel
+float64 brake_distance
+---
+# 反馈
+geometry_msgs/PoseStamped feedback_pose

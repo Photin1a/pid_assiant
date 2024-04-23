@@ -1,0 +1,3 @@
+int32 state_index    # pause(1), recorvery(2), terminate(-1), do nothing(0)
+---
+UniversalStateInfo  state_info

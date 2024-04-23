@@ -1,0 +1,9 @@
+# 关键变量说明:
+# allow_switch_map: 是否允许切换地图，当车在坑道内的时候，底盘会对电梯进行调度
+
+bool allow_switch_map       # 【实验变量，暂未使用】是否允许自动切换地图并执行回充【严禁缺省】
+string charger_station      # 充电站站点名，如果缺省则会根据task_config的配置信息自动寻找最近的充电站
+---
+float32 current_battery     
+bool is_charged
+UniversalStateInfo  state_info

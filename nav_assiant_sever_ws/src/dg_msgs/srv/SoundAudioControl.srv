@@ -1,0 +1,7 @@
+# 控制音响的服务
+string audio_name       # 音频名    
+int32 play_count        # 播放次数              -1 无限循环播放; 0 默认播放一次; 1 播放一次
+int32 volume            # 音量大小              [0,100] 
+bool cancle_play        # 是否终止播放当前音频    true/false
+---
+bool is_played          # 播放成功              true/false

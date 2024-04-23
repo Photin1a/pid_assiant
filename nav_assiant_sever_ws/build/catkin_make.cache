@@ -1,0 +1,2 @@
+dg_msgs:photinia_msgs:sever
+-DCATKIN_DEVEL_PREFIX=/home/photinia/Documents/nav_assiant_sever_ws/devel -DCMAKE_INSTALL_PREFIX=/home/photinia/Documents/nav_assiant_sever_ws/install -G Unix Makefiles

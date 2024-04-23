@@ -1,0 +1,3 @@
+string number      # 设备组编号
+---
+int32 ret          #0表示在Home初始位置

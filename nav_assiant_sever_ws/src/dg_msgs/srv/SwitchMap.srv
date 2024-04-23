@@ -1,0 +1,5 @@
+# 切换地图 service name = /switch_map
+string map_name             # 要切换的题图名称
+---
+int32 result                # 0: 成功；非0: 失败
+string err_msg              # 错误信息

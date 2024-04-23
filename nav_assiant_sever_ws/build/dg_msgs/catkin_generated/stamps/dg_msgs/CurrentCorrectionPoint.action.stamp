@@ -1,0 +1,9 @@
+string number       # 设备编码
+---
+bool success
+string err_msg
+geometry_msgs/PoseStamped[] poses
+trajectory_msgs/JointTrajectoryPoint[] joints # 机械臂关键点
+float32 offset      # 升降柱伸缩量
+string custom_message
+---

@@ -1,0 +1,8 @@
+prefix=/home/photinia/Documents/nav_assiant_sever_ws/devel
+
+Name: photinia_msgs
+Description: Description of photinia_msgs
+Version: 0.0.0
+Cflags: -I/home/photinia/Documents/nav_assiant_sever_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs roscpp std_msgs geometry_msgs

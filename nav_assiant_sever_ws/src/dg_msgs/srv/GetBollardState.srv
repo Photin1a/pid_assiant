@@ -1,0 +1,4 @@
+# 获得升降柱状态
+int32 bollard_index         # 升降柱编号
+---
+BollardState bollard_state  # 升降柱状态

@@ -1,0 +1,4 @@
+string number       # 设备编码
+bool teaching       # true：打开    false：关闭
+---
+int32 result        # 0: 成功  非0：失败

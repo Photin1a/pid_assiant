@@ -1,0 +1,10 @@
+bool update_head2F
+string pcd_regframe_path
+string json_save_path
+string region_name
+string lidar_topic
+
+---
+string pcd_regframe_path
+geometry_msgs/Pose pose_regframe2head
+geometry_msgs/Pose pose_head2F

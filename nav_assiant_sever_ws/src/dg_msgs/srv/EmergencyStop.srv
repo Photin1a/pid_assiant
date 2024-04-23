@@ -1,0 +1,3 @@
+bool stop       # true：急停    false：清除急停
+---
+int32 result    # 0: 成功  非0：失败

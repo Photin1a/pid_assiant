@@ -1,0 +1,6 @@
+string model_path
+string lidar_topic
+---
+int32 result        # 0: 成功  非0：失败
+
+

@@ -1,0 +1,9 @@
+# 采集区域帧/车头帧
+string sensor_type         # 雷达（lidar）、精扫相机（camera）
+string sensor_id           # 雷达topic  相机分组编号
+string directory           # 数据存放目录
+string frame_type          # 帧类型：车头配准帧（head）区域配准帧（region）
+---
+int32 result                       # 0: 成功  非0：失败
+geometry_msgs/PoseStamped pose     # 当前机器人全局坐标
+string data_file_path              # 采集数据存放路径

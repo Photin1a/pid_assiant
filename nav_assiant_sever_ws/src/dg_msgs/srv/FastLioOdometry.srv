@@ -1,0 +1,6 @@
+bool use_odometry
+string topic_lidar
+---
+
+UniversalStateInfo  state_info
+

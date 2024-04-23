@@ -1,0 +1,4 @@
+string map_name
+bool allow_move                     # 当切换地图的时候是否允许移动到地图切换点【严禁缺省】因为涉及到底盘运动和电梯待命等信息
+---
+UniversalStateInfo  state_info

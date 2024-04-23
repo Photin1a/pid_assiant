@@ -1,0 +1,7 @@
+geometry_msgs/PoseStamped target_pose       # 目的地    goal
+string target_type                          # 目的地类型， train_head车头，elevator电梯，charger充电桩
+---
+float32 time_cost                           # 到达耗时  result
+UniversalStateInfo  state_info
+---
+float32 remaining_dis                       # 剩余距离  feedback

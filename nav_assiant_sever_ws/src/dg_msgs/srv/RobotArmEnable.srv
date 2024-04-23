@@ -1,0 +1,4 @@
+string number       # 设备编码
+bool enable       # true：上使能    false：下使能
+---
+int32 result        # 0: 成功  非0：失败

@@ -1,0 +1,7 @@
+# 示教停车点（采集点）    base_link
+string sensor_type         # 雷达（lidar）、精扫相机（camera）
+string sensor_id           # 雷达topic  相机分组编号
+string directory           # 数据存放目录
+---
+int32 result             # 0: 成功  非0：失败
+string data_file_path    # 采集数据存放路径

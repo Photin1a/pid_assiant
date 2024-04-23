@@ -1,0 +1,3 @@
+string diagnosis            # 需要诊断的内容，当为空时则执行全部诊断
+---
+dg_msgs/HardwareAndNodeState state
